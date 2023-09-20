@@ -1,0 +1,65 @@
+html,
+body{
+    background-color:var(--main-bg-color);
+    font-family:  BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+   
+}
+:root {
+    --main-bg-color: #9D76C1;
+    --wrapper-color: #5B0888;
+    --message-color: #713ABE;
+    
+
+  }
+  
+.wrapper{
+    display:flex;
+    padding: 0.5rem 0.2rem;
+    margin: 1rem 5rem;
+    background-color:var(--wrapper-color);
+    border: none;
+    border-radius:1rem ;
+    flex-direction:column;
+
+}
+.input{
+
+    margin: 0.5em;
+    position:sticky;
+    
+    border: none;
+    border-radius: 1em ;
+    padding:0.5em ;
+    background-color:white;
+}
+.message{
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    color:white;
+    margin: 1em;
+    font-size: 1rem;
+    
+    background-color:var(--message-color);
+
+
+}
+input{
+    outline:none;
+    border:none;
+    width:100%;
+    border-radius:1em;
+    font-size: 1rem; 
+    
+}
+button{
+  margin: auto;
+  width: 25%;
+  border: none;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+
+
